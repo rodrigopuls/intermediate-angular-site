@@ -1,9 +1,9 @@
 {
   "targets": {
-    "site-avancado-angular": {
+    "site-intermediario-angular": {
       "hosting": {
         "meu-projeto": [
-          "site-avancado-angular"
+          "site-intermediario-angular"
         ]
       }
     }
