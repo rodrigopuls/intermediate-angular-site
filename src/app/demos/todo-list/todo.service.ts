@@ -42,7 +42,7 @@ export class TasksService {
 
   adicionar(task: Task) {
     this.http
-      .post('http://localhost:3000/todolist', task)
+      .post('https://my-json-server.typicode.com/rodrigopuls/fake-json-server/todolist', task)
       .subscribe(() => {
 
         const value = this.store.value.todolist;
@@ -58,7 +58,7 @@ export class TasksService {
 
   remover(id: number) {
     this.http
-      .delete(`http://localhost:3000/todolist/${id}`)
+      .delete(`https://my-json-server.typicode.com/rodrigopuls/fake-json-server/todolist/${id}`)
       .subscribe(() => {
 
         const value = this.store.value.todolist.filter(item => item.id !== id);
