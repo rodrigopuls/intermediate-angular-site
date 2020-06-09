@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "site-avancado-angular": {
+      "hosting": {
+        "meu-projeto": [
+          "site-avancado-angular"
+        ]
+      }
+    }
+  }
+}

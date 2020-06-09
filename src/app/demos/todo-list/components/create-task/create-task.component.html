@@ -1,0 +1,10 @@
+<form novalidate (ngSubmit)="adicionarTask()" [formGroup]="cadastroForm" class="form-inline">
+    <input class="form-control mb-2 mr-sm-2" id="tarefa" type="text" formControlName="tarefa" placeholder="Nova Tarefa" [ngClass]="{'is-invalid': displayMessage.tarefa }" />
+    <button type="submit" class="btn btn-success mb-2">Adicionar</button>
+</form>
+
+<div class="col-md-12 text-left">
+    <span class="text-danger" *ngIf="displayMessage.tarefa">
+        <p [innerHTML]="displayMessage.tarefa"></p>
+    </span>
+</div>
