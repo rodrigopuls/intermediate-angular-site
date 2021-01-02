@@ -1,6 +1,10 @@
-# MeuProjeto
+# RPulsNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
+Intermediate Angular site made with Bootstrap, RxJs (Promises, Observables e Subscribes), Forms, HttpClient, Pipes, Unit Test, and more. 
+
+## Live preview
+
+Live Preview: https://site-intermediario-angular.firebaseapp.com/
 
 ## Development server
 
